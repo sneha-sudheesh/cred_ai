@@ -1,20 +1,40 @@
-# Hello World Java Program
+# Java Basic Programs
 
-## Description
-This is a basic Java program that demonstrates the structure of a Java application.  
-The program starts execution from the `main` method and prints a message to the console.
+## 📌 Description
+This repository contains basic Java programs created to understand core Java concepts.
 
-## What the Program Does
-- Defines a class named `HelloWorld`
-- Contains the `main` method, which is the entry point of any Java program
-- Uses `System.out.println()` to display the text **"Hello, World"** in the terminal
+---
 
-## Purpose
-This program is usually the first step in learning Java.  
-It helps understand:
-- How a Java class is defined
-- How the `main` method works
-- How to print output to the console
+## 📂 Programs Included
 
-## Output
-- HELLO WORLD
+### 1️⃣ Hello World Program
+**File:** `HelloWorld.java`
+
+- Prints "HELLO WORLD"
+- Demonstrates the basic structure of a Java program
+
+**Output:**
+HELLO WORLD
+---
+
+### 2️⃣ ArrayList Program
+**File:** `ArrayList.java`
+
+- Demonstrates the use of ArrayList
+- Adds elements to the list
+- Inserts an element at a specific index
+- Displays the final list
+
+**Sample Output:**
+[apple, mulberry, cherry]
+
+---
+
+## 🚀 How to Run the Programs
+
+```bash
+javac HelloWorld.java
+javac ArrayList.java
+
+java HelloWorld
+java ArrayList
