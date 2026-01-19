@@ -1,34 +1,62 @@
 # Java Basic Programs
 
-## 📌 Description
-This repository contains basic Java programs created to understand core Java concepts.
+# Java Programs
 
 ---
 
-## 📂 Programs Included
+## Hello World Java Program
 
-### 1️⃣ Hello World Program
-**File:** `HelloWorld.java`
+### Description
+This program demonstrates the basic structure of a Java application.  
+It begins execution from the `main` method and prints a simple message to the console.
 
-- Prints "HELLO WORLD"
-- Demonstrates the basic structure of a Java program
+### Program Overview
+The program performs the following actions:
+- Defines a class named `HelloWorld`
+- Uses the `main` method as the entry point
+- Prints text using `System.out.println()`
 
-**Output:**
+### Purpose
+This program is commonly used as an introduction to Java programming.  
+It helps in understanding:
+- How a Java class is defined
+- How the `main` method works
+- How to print output to the console
+
+### Output
 HELLO WORLD
+
+
+
 ---
 
-### 2️⃣ ArrayList Program
-**File:** `ArrayList.java`
+## Java ArrayList Program
 
-- Demonstrates the use of ArrayList
+### Description
+This Java program demonstrates the use of `ArrayList` from the Java Collections Framework.  
+It shows how to add elements to an `ArrayList` and insert an element at a specific index.
+
+### Program Overview
+The program performs the following operations:
+- Creates an `ArrayList` of strings
 - Adds elements to the list
-- Inserts an element at a specific index
-- Displays the final list
+- Inserts an element at index `0`
+- Prints the final contents of the list
 
-**Sample Output:**
+### Key Concepts Used
+- `ArrayList` from `java.util`
+- Adding elements using `add()`
+- Inserting elements at a specific index
+- Printing a collection
+
+### Purpose
+This program helps in understanding:
+- How to work with `ArrayList` in Java
+- How to insert elements at a specific position
+- How Java displays collections
+
+### Output
 [apple, mulberry, cherry]
-
----
 
 ## 🚀 How to Run the Programs
 
